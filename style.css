@@ -1,0 +1,119 @@
+/* Estilos para el formulario */
+*{
+  padding: 0;
+  margin: 0;
+}
+.mi-form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2f3644;
+    border: 2px solid #393f53;
+    border-radius: 5px;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+  }
+  
+  /* Estilos para el título del formulario */
+  body {
+    background-color: #242933;
+    margin-top: 30px;
+  }
+  
+
+  .titulo {
+    font-size: 1.8em;
+    margin: 10px 0;
+    color: #acbae1;
+    margin-bottom: 30px;
+    display: inline;
+  }
+  
+  /* Estilos para las etiquetas de los campos del formulario */
+  label {
+    display: block;
+    font-size: 15px;
+    color: #808aab;
+    
+    margin-bottom: 1px;
+    margin-top: 10px;
+    margin-bottom: 0.4em;
+  }
+  /* label:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url(ima_genes/error-icon.svg) ;
+    background-repeat: no-repeat;
+    
+    } */
+  
+  /* Estilos para los campos de texto del formulario */
+  input[type="text"], input[type="password"], input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #333;
+  }
+  
+  
+  /* Estilos para el botón de envío del formulario */
+  button[type="submit"] {
+    margin-top: 1em;
+    width: 98%;
+    padding: 10px;
+    border: 50px;
+    border-radius: 4px;
+    background-color: #6c63ff;
+    color: #ccc;
+    border-color: #0b0404;
+    border: 2px solid black;
+    font-size: 18px;
+    cursor: pointer;
+    /* margin-left: 30px; */
+    margin-bottom: 10px;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #46a049;
+  }
+  div{
+    position:relative;
+    margin:5px;
+  }
+  input {
+    display:inline-block;
+    /* width: 0px;
+    height:40px; */
+  }
+  svg{
+    position:absolute;
+    display:inline-block;
+    left:260px;
+    top:10px;  
+  }
+  .status{
+    display: none;
+  }
+  .correcto{
+    border:solid 2px rgb(36, 185, 34) !important;
+  }
+  .incorrecto{
+    border:solid 2px rgb(194, 23, 23) !important;
+  }
+  
+  p{
+    display: none;
+    color: rgb(213, 15, 15);
+    font-size: 10px;
+  }
